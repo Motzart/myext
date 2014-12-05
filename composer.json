@@ -1,0 +1,24 @@
+{
+    "name": "motzart/yii2-myext",
+    "description": "Testing extension for the Yii framework",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/Motzart/myext"
+    },
+    "authors": [
+        {
+            "name": "Alexander Molotsilo",
+            "email": "motzart66@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\myext\\": ""
+        }
+    }
+}
